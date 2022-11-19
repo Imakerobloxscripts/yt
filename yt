@@ -1,0 +1,5 @@
+local ProximityPrompt = script.Parent
+ProximityPrompt.Triggered:Connect(function(player)
+	player.Character.HumanoidRootPart.Position = workspace.Part1.Position
+    print("Successfully Teleported Player")
+end)
